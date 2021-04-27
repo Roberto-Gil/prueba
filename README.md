@@ -22,19 +22,19 @@ The following guides illustrate how to use some features concretely:
 This microservice creates a listener that listens for tweet traffic and persists in memory those that meet the criteria.
 On the other hand, the Api Rest consults the data stored in memory.
 
-ApiRest:
-Postman collection: ...src/main/resources/postman/New Collection.postman_collection.json
+### ApiRest:
+* Postman collection: ...src/main/resources/postman/New Collection.postman_collection.json
 
-localhost:8080/Tweets -> get all tweets persisted in memory
-localhost:8080/Tweets/hashtag -> get n most used hashtags defined in filter.hashtags, default = 10
-localhost:8080/Tweets/validated -> get all tweets validated by the user
-localhost:8080/Tweets/:id/validate -> validate the tweet with :id id
+* localhost:8080/Tweets -> get all tweets persisted in memory
+* localhost:8080/Tweets/hashtag -> get n most used hashtags defined in filter.hashtags, default = 10
+* localhost:8080/Tweets/validated -> get all tweets validated by the user
+* localhost:8080/Tweets/:id/validate -> validate the tweet with :id id
 
-Twitter Streaming Api listener:
-Filer Query ->  any geotagged tweet with languages defined in filter.languages, default = es, fr, it
-Filter in Listener -> tweets from users with a number o followers defined in filter.followers, default = 1500
-Hashtags -> update the number of uses of a hashtag.
+### Twitter Streaming Api listener:
+* Filer Query ->  any geotagged tweet with languages defined in filter.languages, default = es, fr, it
+* Filter in Listener -> tweets from users with a number o followers defined in filter.followers, default = 1500
+* Hashtags -> update the number of uses of a hashtag.
 
-Persistence:
-Tweet -> (id, userId, text, location, validation)
-HashTag -> (id, uses)
+### Persistence:
+* Tweet -> (id, userId, text, location, validation)
+* HashTag -> (id, uses)
