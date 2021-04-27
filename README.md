@@ -9,7 +9,9 @@ For further reference, please consider the following sections:
 * [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.5/maven-plugin/reference/html/#build-image)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/2.4.5/reference/htmlsingle/#boot-features-developing-web-applications)
 * [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.4.5/reference/htmlsingle/#boot-features-jpa-and-spring-data)
-* [Twitter4j] (https://twitter4j.org/en/)
+* [Twitter4j](https://twitter4j.org/en/)
+* [Mapstruct](https://mapstruct.org/)
+* [Lombok](https://projectlombok.org/)
 
 ### Guides
 The following guides illustrate how to use some features concretely:
@@ -38,3 +40,6 @@ On the other hand, the Api Rest consults the data stored in memory.
 ### Persistence:
 * Tweet -> (id, userId, text, location, validation)
 * HashTag -> (id, uses)
+
+### TO DO
+* Junit tests
