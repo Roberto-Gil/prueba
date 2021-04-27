@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "dc176389-ca8d-4be0-8d73-438843c8d22b",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getTweets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/Tweets",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getHashtag",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/Tweets",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getValidatedTweets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/Tweets/validated",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweets",
+						"validated"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "validateTweet",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/Tweets/:id/validate",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Tweets",
+						":id",
+						"validate"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
